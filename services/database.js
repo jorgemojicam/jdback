@@ -12,6 +12,7 @@ async function close() {
 
 module.exports.close = close;
 
+
 function simpleExecute(statement, binds = [], opts = {}) {
   return new Promise(async (resolve, reject) => {
     let conn;
